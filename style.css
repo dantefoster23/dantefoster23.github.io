@@ -5,34 +5,42 @@
     box-sizing: border-box;
 }
 
-/* Container Styling */
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container */
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
-/* Logo Section */
-.logo {
-    width: 150px;  /* Adjust width as needed */
-    height: auto;   /* Maintain aspect ratio */
-    display: block;
-    margin: 20px auto;  /* Center the logo */
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;  /* Adjusted to center the nav items */
 }
 
-/* Navigation Styling */
-nav ul {
+header nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: center;  /* Center the navigation */
 }
 
-nav ul li {
+header nav ul li {
     margin-left: 20px;
 }
 
-nav ul li a {
-    color: #333;
+header nav ul li a {
+    color: #fff;
     text-decoration: none;
+    font-size: 16px;
 }
 
 /* Canva Embed Container */
